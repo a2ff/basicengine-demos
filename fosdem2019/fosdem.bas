@@ -301,9 +301,11 @@ while fn navnb()=0 and count < 5
 wend
 sound 2,3,10,400
 
+&again
 while fn navnb()<256
   call motion
 wend
+goto &again
 
 return
 
